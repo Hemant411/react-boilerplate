@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import Layout from './components/layout';
 import Authentication from './components/authentication';
-import MobileVerify from './containers/auth/mobile_verify';
+import Login from './containers/auth/login';
 import Dashboard from './containers/dashboard';
 import CreateBlog from './containers/blog/create';
 import UpdateBlog from './containers/blog/update';
@@ -12,7 +12,7 @@ import ViewBlog from './components/blog/view';
 const App = () => {
   return (
     <Switch>
-      <Route exact path='/login' component={MobileVerify} />
+      <Route exact path='/login' component={Login} />
       <Layout>
         <Authentication>
           <Route exact path='/' component={Dashboard} />

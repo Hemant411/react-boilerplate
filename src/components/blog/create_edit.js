@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Button from '../../components/common/button';
 
-import "react-datepicker/dist/react-datepicker.css";
 import Input from '../common/input';
 import Loader from '../common/loader';
 
