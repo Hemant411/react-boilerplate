@@ -1,4 +1,3 @@
-// const URL = 'https://rryc4z19yf.execute-api.us-west-2.amazonaws.com/dev'
 const URL = 'http://localhost:3030'
 const VERSION = '/api/v1'
 const ADMIN = '/admin'
